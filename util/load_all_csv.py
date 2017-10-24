@@ -161,8 +161,8 @@ class DataSets():
         plt.bar(all, skill_level_count)
         plt.xticks(all, [skill_dict[val] for val in x], rotation='vertical')
         plt.xlabel("Skill")
-        plt.title("Number of jobs available per skill level")
-        plt.ylabel("Different Job Count")
+        plt.title("Number of tasks available in jobs per skill")
+        plt.ylabel("Different Task Count")
         plt.show()
 
         return path
@@ -190,7 +190,7 @@ class DataSets():
         } 
 
         educations_dict = {
-            "0": "None",
+            "0": "N/A",
             "A": "University Degree(s)",
             "B": "College, vocational, or apprenticeship",
             "C/D": "No formal education"
@@ -240,9 +240,10 @@ class DataSets():
         all = list(range(len(program_names)))
         choices = list(range(1, 5))
 
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots(figsize=(20,20))
         w = 0.2
         bars = []
+        end = ""
 
         for i, choice in enumerate(choices):
             y = None
@@ -250,8 +251,10 @@ class DataSets():
                 y = df.loc[df["Choice"] == choice, :].groupby("Program").sum().sort_index()["Count"]
             elif confirmed:
                 y = df.loc[(df["Choice"] == choice) & (df["Confirmed"] == "Y"), :].sort_index()["Count"]
+                end = "With Application Confirmed"
             else:
                 y = df.loc[(df["Choice"] == choice) & (df["Confirmed"] == "N"), :].sort_index()["Count"]
+                end = "With Application Not Confirmed"
             bar = ax.bar(np.array(all)+i*w, y, w)
             bars.append(bar)
 
@@ -259,7 +262,7 @@ class DataSets():
         plt.xticks(all, program_names)
         plt.xlabel("Program")
         plt.ylabel("Number of Applicants")
-        plt.title("Number of Applicants per Program during {}".format(year))
+        plt.title("Number of Applicants per Program during {} {}".format(year, end))
         plt.show()
         return path
 
