@@ -45,7 +45,7 @@ class DataSets():
         all = list(range(len(programs)))
         programs_dict = dict([(program, i) for i, program in enumerate(programs)])
         programs_num = dict([(i, program) for i, program in enumerate(programs)])
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots(figsize=(10,10))
         w = 0.2
         bars = []
         #relatedness 1
@@ -103,7 +103,7 @@ class DataSets():
         unis_num = dict([(i, uni) for i, uni in enumerate(unis)])
         all = list(range(len(unis)))
 
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots(figsize=(10,10))
         w = 0.1
         bars = []
         ymin = 1.0
@@ -240,7 +240,7 @@ class DataSets():
         all = list(range(len(program_names)))
         choices = list(range(1, 5))
 
-        fig, ax = plt.subplots(figsize=(20,20))
+        fig, ax = plt.subplots(figsize=(10,10))
         w = 0.2
         bars = []
         end = ""
