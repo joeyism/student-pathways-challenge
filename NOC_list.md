@@ -1,5 +1,37 @@
 # NOC List
 
+## Absolutes
+
+### Top
+
+**4032** Elementary school and kindergarten teachers
+
+**4021** College and other vocational instructors
+
+**4167** Recreation, sports and fitness policy researchers, consultants and program officers
+
+**3012** Registered nurses and registered psychiatric nurses
+
+**4012** Post-secondary teaching and research assistants
+
+**4212** Social and community service workers
+
+
+### Bottom
+
+**7232** Tool and die makers
+
+**9533** Other wood products assemblers and inspectors
+
+**9463** Fish and seafood plant workers
+
+**9211** Supervisors, mineral and metal processing
+
+**7251** Plumbers
+
+**7322** Motor vehicle body repairers
+
+
 ## By Program
 
 ### Top
@@ -36,33 +68,4 @@ KRP - 2121 Biologists and related scientists
 FAA - 3142 Physiotherapists
 
 
-## Absolutes
 
-### Top
-
-4032 Elementary school and kindergarten teachers
-
-4021 College and other vocational instructors
-
-4167 Recreation, sports and fitness policy researchers, consultants and program officers
-
-3012 Registered nurses and registered psychiatric nurses
-
-4012 Post-secondary teaching and research assistants
-
-4212 Social and community service workers
-
-
-### Bottom
-
-7232 Tool and die makers
-
-9533 Other wood products assemblers and inspectors
-
-9463 Fish and seafood plant workers
-
-9211 Supervisors, mineral and metal processing
-
-7251 Plumbers
-
-7322 Motor vehicle body repairers
