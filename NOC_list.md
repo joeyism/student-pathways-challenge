@@ -68,27 +68,46 @@ KRP - 2121 Biologists and related scientists
 FAA - 3142 Physiotherapists
 
 
+
+
+
+
 ## 3 digit NOC
 
 ### Top
 
 403 Secondary and elementary school teachers and educational counsellors
+
  └─ 4032 Elementary school and kindergarten teachers
 
+
 416 Policy and program researchers, consultants and officers
+
  └─ 4167 Recreation, sports and fitness policy researchers, consultants and program officers
 
+
 122 Administrative and regulatory occupations
+
  └─ 1221 Administrative officers
 
+
 421 Paraprofessional occupations in legal, social, community and education services
+
  └─ 4212 Social and community service workers
 
+
 111 Auditors, accountants and investment professionals
+
  └─ 1111 Financial auditors and accountants
 
+
 402 College and other vocational instruct
+
  └─ 4021 College and other vocational instructors
 
+
 217 Computer and information systems professionals
+
  └─ 2174 Computer programmers and interactive media developers
+
+
